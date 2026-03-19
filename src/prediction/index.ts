@@ -18,3 +18,17 @@ export type {
   TodayRaceEntry,
 } from './types'
 export { DIMENSION_LABELS } from './types'
+export {
+  DataCollectorAgent,
+  AnalyzerAgent,
+  PredictorAgent,
+  PredictionPipeline,
+} from './agents'
+export type {
+  RawHorseData,
+  RawPastRace,
+  RawTodayEntry,
+  AnalyzedHorse,
+  AgentLog,
+  PipelineResult,
+} from './agents'
