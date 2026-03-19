@@ -1,0 +1,70 @@
+.race-result-page {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 16px 40px;
+}
+
+.search-box {
+  background: #f9fafb;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.search-box h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.search-fields {
+  display: flex;
+  gap: 8px;
+}
+
+.search-fields select,
+.search-fields input {
+  flex: 1;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #e5e8eb;
+  border-radius: 8px;
+  background: #fff;
+  color: #191f28;
+  outline: none;
+}
+
+.search-fields select:focus,
+.search-fields input:focus {
+  border-color: #3182f6;
+}
+
+.search-fields button {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background: #3182f6;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.search-fields button:disabled {
+  background: #b0c4de;
+  cursor: not-allowed;
+}
+
+.error-msg {
+  color: #e74c3c;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.race-results {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

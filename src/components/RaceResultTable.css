@@ -1,0 +1,75 @@
+.race-table-card {
+  background: #fff;
+  border: 1px solid #e5e8eb;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.race-table-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 16px;
+  background: #f9fafb;
+  border-bottom: 1px solid #e5e8eb;
+}
+
+.race-no {
+  font-size: 16px;
+  font-weight: 700;
+  color: #3182f6;
+}
+
+.race-meta {
+  font-size: 13px;
+  color: #8b95a1;
+}
+
+.race-table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.race-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.race-table th {
+  padding: 10px 12px;
+  text-align: left;
+  font-weight: 600;
+  color: #6b7684;
+  border-bottom: 1px solid #e5e8eb;
+  background: #fafbfc;
+}
+
+.race-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #f2f4f6;
+}
+
+.race-table .ord {
+  font-weight: 700;
+  text-align: center;
+  width: 40px;
+}
+
+.race-table .hr-name {
+  font-weight: 600;
+  color: #191f28;
+}
+
+.race-table tr.top-1 .ord { color: #ff6b35; }
+.race-table tr.top-2 .ord { color: #3182f6; }
+.race-table tr.top-3 .ord { color: #00b493; }
+
+.weight-diff {
+  font-size: 11px;
+  margin-left: 2px;
+}
+
+.weight-diff.up { color: #e74c3c; }
+.weight-diff.down { color: #3182f6; }
